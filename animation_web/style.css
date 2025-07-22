@@ -184,3 +184,130 @@ input{
     color: black;
 }
 
+
+        /* Footer Section */
+        footer{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color: white;
+            background-color: rgba(240, 95, 42, 0.801);
+            padding-top: 1px;
+            padding-left: 0;
+        }
+
+        .container{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 200px;
+            margin-top: 10px;
+        }
+
+
+        h3{
+            font-size: 28px;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .footer_content{
+            margin: 2px;
+            justify-content: flex-start; 
+            align-items: flex-end;      
+        }
+        .footer_content p{
+            width: 100%;
+            margin: auto;
+            padding: 7px;
+        }
+
+        .footer_content ul{
+            text-align: center;
+        }
+
+        
+        .list{
+            padding: 0;
+        }
+
+        .list li{
+            width: auto;
+            text-align: center;
+            list-style-type: none;
+            color: white;
+            text-decoration: none;
+            padding: 7px;
+            position: relative;
+        }
+
+        .list li::before{
+            content: '';
+            position: absolute;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            top: 90%;
+            width: 0;
+            height: 2px;
+            background-color: rgb(226, 39, 76);
+        }
+
+        .list li:hover::before{
+            width: 70px;
+        }
+
+        .list li a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .list li a:hover{
+            color:rgb(226, 39, 76);
+            font-weight: bold;
+        }
+
+          .list2{
+            padding: 0;
+        }
+
+        .list2 li{
+            width: auto;
+            text-align: center;
+            list-style-type: none;
+            color: white;
+            text-decoration: none;
+            padding: 7px;
+            position: relative;
+        }
+
+        .list2 li::before{
+            content: '';
+            position: absolute;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            top: 90%;
+            width: 0;
+            height: 2px;
+            background: peru;
+            
+        }
+
+        .list2 li:hover::before{
+            width: 70px;
+        }
+
+        .list2 li a{
+            text-decoration: none;
+            color: white;
+        }
+
+        .list2 li a:hover{
+            color: peru;
+        }
+
+        .Footer_content p{
+            text-align: center;
+           bottom: 5px;
+            position: relative;    
+        }
